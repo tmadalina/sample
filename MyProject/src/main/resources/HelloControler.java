@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class HelloController {
 
-	System.out.println("new");
+	
 	@GetMapping("/hello")
 	public String hello(Model model) {
 
